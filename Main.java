@@ -4,7 +4,7 @@ public class Main {
 	
 	Bitmap bitmap = new Bitmap(100, 100);
 
-	bitmap.setColor(10, 10, 127, 127, 0);
+	bitmap.setColor(10, 10, (byte) 32, (byte) 64, (byte) 0);
 	System.out.println(bitmap.getColor(10, 10));
 
 	/*Car car1 = new Car(0);
